@@ -13,7 +13,7 @@ if (isset($_POST['Submit'])){
     if($insert){
 
         echo"<script>
-        alert (Data is Connect!!)
+        alert (Database is Connected!!)
         window.location.href='index.php';
         </script>";
 
@@ -21,7 +21,7 @@ if (isset($_POST['Submit'])){
 
     else{
         echo"<script>
-        alert('Data is Not Connect!')       
+        alert('Database is Not Connected!')       
         </script>"
     }
 
